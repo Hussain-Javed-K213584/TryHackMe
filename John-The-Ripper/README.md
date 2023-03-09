@@ -65,3 +65,20 @@ What type of hash is hash4.txt?
 What is the cracked value of hash4.txt
 
 **Ans.** `colossal`
+
+## Task 5 - Cracking Windows Authentication Hashes
+
+Download the ntlm.txt file, you will find your ntlm hash there. NTLM is commonly used in Windows operating systems are usually attacked in active directories.
+
+Run the john command with the `nt` format and crack the password.
+
+### *Answer the questions below*
+---
+
+What do we need to set the "format" flag to, in order to crack this?
+
+**Ans.** `nt`
+
+What is the cracked value of this password?
+
+**Ans.** `Mushroom`
