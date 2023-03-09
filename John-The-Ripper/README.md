@@ -31,4 +31,37 @@ Download the zip file and extract the 4 txt files. Examine the context of the fi
 After that, download the rockyou.txt file from github, you can search it up and can find it on top of the web result.
 You will then download a hash identifier to identify the hashes in the txt file, you may use an online [hash](https://hashes.com/en/tools/hash_identifier) identifier website. The syntax to crack to hashes using john is `john --format=[format] --wordlist=[path to wordlist] [path to file]`. Note that `[format]` here is the type of hash which can be listed down using the following command `john --list=formats`.
 
+### *Answer the questions below*
+---
+What type of hash is hash1.txt?
 
+**Ans.** `MD5`
+
+What is the cracked value of hash1.txt?
+
+**Ans.** `biscuit`
+
+What type of hash is hash2.txt?
+
+**Ans.** `SHA1`
+
+What is the cracked value of hash2.txt?
+
+**Ans.** `kangeroo`
+
+What type of hash is hash3.txt?
+
+**Ans.** `SHA256`
+
+
+What is the cracked value of hash3.txt
+
+**Ans.** `microphone`
+
+What type of hash is hash4.txt?
+
+**Ans.** `whirlpool`
+
+What is the cracked value of hash4.txt
+
+**Ans.** `colossal`
