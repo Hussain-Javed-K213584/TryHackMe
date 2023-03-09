@@ -28,3 +28,7 @@ What website was the rockyou.txt wordlist created from a breach on?
 
 Download the zip file and extract the 4 txt files. Examine the context of the files and we can see that each file consist of a hash.
 
+After that, download the rockyou.txt file from github, you can search it up and can find it on top of the web result.
+You will then download a hash identifier to identify the hashes in the txt file, you may use an online [hash](https://hashes.com/en/tools/hash_identifier) identifier website. The syntax to crack to hashes using john is `john --format=[format] --wordlist=[path to wordlist] [path to file]`. Note that `[format]` here is the type of hash which can be listed down using the following command `john --list=formats`.
+
+
